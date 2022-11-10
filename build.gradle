@@ -32,9 +32,9 @@ dependencies {
 }
 */
 
-apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'application'
+// apply plugin: 'java'
+// apply plugin: 'eclipse'
+// apply plugin: 'application'
 
 mainClassName = 'hello.HelloWorld'
 
@@ -66,6 +66,6 @@ dependencies {
 
 // tag::wrapper[]
 task wrapper(type: Wrapper) {
-    gradleVersion = '3.5'
+    gradleVersion = '4.9'
 }
 // end::wrapper[]
